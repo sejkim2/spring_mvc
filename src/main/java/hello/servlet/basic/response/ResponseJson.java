@@ -15,6 +15,7 @@ public class ResponseJson extends HttpServlet {
 
     //json -> java 객체 혹은 java 객체 -> json으로 변환
     private ObjectMapper objectMapper = new ObjectMapper();
+
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //Content-Type: application/json

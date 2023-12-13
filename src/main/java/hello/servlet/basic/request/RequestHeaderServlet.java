@@ -55,7 +55,6 @@ public class RequestHeaderServlet extends HttpServlet {
     }
 
     //Header 편리한 조회
-    //Header 편리한 조회
     private void printHeaderUtils(HttpServletRequest request) {
         System.out.println("--- Header 편의 조회 start ---");
         System.out.println("[Host 편의 조회]");
