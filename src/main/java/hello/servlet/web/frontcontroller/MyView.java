@@ -22,6 +22,7 @@ public class MyView {
         dispatcher.forward(request, response);
     }
 
+    //v3부터 오버라이딩
     public void render(Map<String, Object> model, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         modelToRequestAttribute(model, request);
         RequestDispatcher dispatcher = request.getRequestDispatcher(viewPath);
